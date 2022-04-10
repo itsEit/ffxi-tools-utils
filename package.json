@@ -1,7 +1,7 @@
 {
   "name": "ffxi-tools-utils",
   "version": "1.0.0",
-  "description": "",
+  "description": "FFXI Tools Utilities",
   "main": "index.js",
   "scripts": {
     "build": "node --experimental-json-modules index.js",

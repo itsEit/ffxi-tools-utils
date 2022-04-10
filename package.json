@@ -1,0 +1,13 @@
+{
+  "name": "ffxi-tools-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --experimental-json-modules index.js",
+    "buildJson": "node CreateJsonFiles.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

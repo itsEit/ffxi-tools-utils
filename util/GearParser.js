@@ -23,8 +23,8 @@ export function parseGear(itemDesc) {
     { stat: "WSAccuracy", test: [/Weapon Skill Accuracy\s?(\+|-)\d*\%?/gi] },
 
     // Magic
-    { stat: "MagicAcc", test: [/Magic Accuracy(\+|-)\d*\%?/gi] },
-    { stat: "MagicAcc", test: [/Magic Accracy(\+|-)\d*\%?/gi] }, // Typo on some Gear
+    { stat: "MagicAccuracy", test: [/Magic Accuracy(\+|-)\d*\%?/gi] },
+    { stat: "MagicAccuracy", test: [/Magic Accracy(\+|-)\d*\%?/gi] }, // Typo on some Gear
     { stat: "MagicDefBonus", test: [/"Magic Def. Bonus"\s?(\+|-)\d*\%?/gi] },
     { stat: "MagicBurstBonus", test: [/Magic burst damage\s?(\+|-)\d*\%?/gi] },
     { stat: "MagicAttackBonus", test: [/"Magic Atk. Bonus"\s?(\+|-)\d*\%?/gi] },
@@ -33,12 +33,12 @@ export function parseGear(itemDesc) {
     { stat: "Refresh", test: [/"Refresh"\s?(\+|-)\d*\%?/gi] },
 
     // Ranged
-    { stat: "RangedAcc", test: [/Ranged Accuracy\s?(\+|-)\d*\%?/gi] },
+    { stat: "RangedAccuracy", test: [/Ranged Accuracy\s?(\+|-)\d*\%?/gi] },
     { stat: "RangedAttack", test: [/Ranged Attack\s?(\+|-)\d*\%?/gi] },
 
     // Physical
-    { stat: "MeleeAcc", test: [/Accuracy(\+|-)\d*\%?/gi] },
-    { stat: "MeleeAttack", test: [/Attack\s?(\+|-)\d*\%?/gi] },
+    { stat: "PhysicalAccuracy", test: [/Accuracy(\+|-)\d*\%?/gi] },
+    { stat: "PhysicalAttack", test: [/Attack\s?(\+|-)\d*\%?/gi] },
 
     // Multi Attack
     { stat: "DoubleAttack", test: [/"Double Attack"\s?(\+|-)\d*\%?/gi] },
@@ -70,10 +70,10 @@ export function parseGear(itemDesc) {
     { stat: "StoreTP", test: [/"Store TP"\s?(\+|-)\d*\%?/gi] },
     { stat: "Enmity", test: [/Enmity(\+|-)\d*\%?/gi] },
     { stat: "MAB", test: [/"Magic Atk. Bonus\\"(\+|-)\d*\%?/gi] },
-    { stat: "mEva", test: [/Magic Eva.(\+|-)\d*\%?/gi] },
-    { stat: "mEva", test: [/Magic Evasion(\+|-)\d*\%?/gi] },
-    { stat: "Eva", test: [/Eva.(\+|-)\d*\%?/gi] },
-    { stat: "Eva", test: [/Evasion(\+|-)\d*\%?/gi] },
+    { stat: "MagicEvasion", test: [/Magic Eva.(\+|-)\d*\%?/gi] },
+    { stat: "MagicEvasion", test: [/Magic Evasion(\+|-)\d*\%?/gi] },
+    { stat: "PhysicalEvasion", test: [/Eva.(\+|-)\d*\%?/gi] },
+    { stat: "PhysicalEvasion", test: [/Evasion(\+|-)\d*\%?/gi] },
     { stat: "MDT", test: [/Magic Damage taken (\+|-)\d*\%?/gi] },
     { stat: "PDT", test: [/Physical Damage taken (\+|-)\d*\%?/gi] },
     { stat: "DT", test: [/Damage taken (\+|-)\d*\%?/gi] },

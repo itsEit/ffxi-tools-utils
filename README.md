@@ -1,4 +1,5 @@
 # Utilities to build data for FFXI Tools
+Transform Stats from Windower team's FFXI LUA library to Json
 
 ## Windower lua files to JSON
 `npm run buildJson` will take the 4 lua files in the input folder and convert to JSON objects in output folder

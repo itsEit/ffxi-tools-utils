@@ -1,6 +1,6 @@
 import { parseGear } from "./util/GearParser.js";
-import GearItems from "./output/items.json";
-import GearDesc from "./output/item_descriptions.json";
+import GearItems from "./output/items.json" assert { type: "json" };
+import GearDesc from "./output/item_descriptions.json" assert { type: "json" };
 
 import fs from "fs";
 

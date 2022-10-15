@@ -1,5 +1,5 @@
-import jobs from "../output/jobs.json";
-import slots from "../output/slots.json";
+import jobs from "../output/jobs.json" assert { type: "json" };
+import slots from "../output/slots.json" assert { type: "json" };
 
 const intToBin = (int) => {
   return (int >>> 0).toString(2);

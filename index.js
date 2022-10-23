@@ -6,7 +6,7 @@ import fs from "fs";
 
 // Loop through all gear and create new object
 const itemKeys = Object.keys(GearItems);
-let FullGear = {};
+let FullGear = [];
 let count = 1;
 itemKeys.forEach((key) => {
   let item = {};
@@ -29,7 +29,8 @@ itemKeys.forEach((key) => {
     GearItems[key].category === "Weapon"
   ) {
     obj = parseGear(item);
-    FullGear[Number(key)] = obj;
+    FullGear.push(obj)
+    // FullGear[Number(key)] = obj;
   }
   count++;
 });

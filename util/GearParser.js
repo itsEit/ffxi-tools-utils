@@ -44,6 +44,7 @@ export function parseGear(itemDesc) {
     { stat: "DoubleAttack", test: [/"Double Attack"\s?(\+|-)\d*\%?/gi] },
     { stat: "TripleAttack", test: [/"Triple Attack"\s?(\+|-)\d*\%?/gi] },
     { stat: "QuadripleAttack", test: [/"Quadriple Attack"\s?(\+|-)\d*\%?/gi] },
+    { stat: "QuadripleAttack", test: [/"Quadruple Attack"\s?(\+|-)\d*\%?/gi] },
 
     // Other
     { stat: "GearHaste", test: [/Haste(\+|-)\d*\%?/gi] },
